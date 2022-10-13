@@ -6,7 +6,7 @@
 
 ```bash
 pip install mmcv-full==1.4.4 mmsegmentation==0.24.0
-pip install scipy timm==0.3.2
+pip install scipy timm
 ```
 ## Training
 ```
