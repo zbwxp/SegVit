@@ -34,4 +34,4 @@ Vit-Large  | PASCAL-Context (59cls)| 64.1 | 65.3  | 321.6 | [model](https://clou
 
 
 ## License
-This code and trained models are released under GPU license for non-commercial purposes. For commercial purposes, please contact the authors.
+This code and trained models are released under GNUv3 license https://www.gnu.org/licenses/gpl-3.0.en.html for non-commercial purposes. For commercial purposes, please contact the authors.
