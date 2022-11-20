@@ -6,8 +6,8 @@
 
 ## Highlights
 * **Light Decoder:** The efficient Attention-to-Mask (ATM) decoder utilised the attention mechanism to provide direct supervision to mask predictions.
-* **Light Structure:** We proposed *Shrunk* structure that can save up to *40%*  computations to the Vit Backbone.
-* **Stronger performance:** We got mIoU **55.2%** on ADE20K, mIoU **50.3%** on COCOStuff10K, and mIoU **65.3%** on PASCAL-Context datasets with the least amount of computational cost among counterparts. 
+* **Light Structure:** We proposed *Shrunk* structure that can save up to **40%** computational cost in a structure with ViT backbone.
+* **Stronger performance:** We got state-of-the-art performance mIoU **55.2%** on ADE20K, mIoU **50.3%** on COCOStuff10K, and mIoU **65.3%** on PASCAL-Context datasets with the least amount of computational cost among counterparts using ViT backbone. 
 
 
 ## Getting started 
