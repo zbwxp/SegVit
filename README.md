@@ -34,4 +34,14 @@ Vit-Large  | PASCAL-Context (59cls)| 64.1 | 65.3  | 321.6 | [model](https://clou
 
 
 ## License
-This code and trained models are released under GNUv3 license https://www.gnu.org/licenses/gpl-3.0.en.html for non-commercial purposes. For commercial purposes, please contact the authors.
+For academic use, this project is licensed under the 2-clause BSD License - see the LICENSE file for details. For commercial use, please contact the authors.
+
+## Citation
+```
+@article{zhang2022segvit,
+  title={SegViT: Semantic Segmentation with Plain Vision Transformers},
+  author={Zhang, Bowen and Tian, Zhi and Tang, Quan and Chu, Xiangxiang and Wei, Xiaolin and Shen, Chunhua and Liu, Yifan},
+  journal={arXiv preprint arXiv:2210.05844},
+  year={2022}
+}
+```
