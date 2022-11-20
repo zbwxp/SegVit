@@ -62,7 +62,7 @@ For academic use, this project is licensed under the 2-clause BSD License - see 
 @article{zhang2022segvit,
   title={SegViT: Semantic Segmentation with Plain Vision Transformers},
   author={Zhang, Bowen and Tian, Zhi and Tang, Quan and Chu, Xiangxiang and Wei, Xiaolin and Shen, Chunhua and Liu, Yifan},
-  journal={arXiv preprint arXiv:2210.05844},
+  journal={NeurIPS},
   year={2022}
 }
 ```
