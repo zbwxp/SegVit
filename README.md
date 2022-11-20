@@ -1,4 +1,4 @@
-# Official pytorch code of SegViT
+# Official Pytorch Implementation of SegViT
 
 SegViT: Semantic Segmentation with Plain Vision Transformers 
 
