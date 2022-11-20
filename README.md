@@ -1,4 +1,6 @@
 # [SegViT: Semantic Segmentation with Plain Vision Transformers](https://arxiv.org/abs/2210.05844)
+<img src="./resources/teaser-01.png">
+<img src="resources/atm_arch-1.png">
 
 ## Getting started 
 
