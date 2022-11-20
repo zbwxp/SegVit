@@ -1,11 +1,22 @@
-# SegViT: Semantic Segmentation with Plain Vision Transformers 
-### [[paper]](https://arxiv.org/abs/2210.05844)
+# Official pytorch code of SegViT
+
+SegViT: Semantic Segmentation with Plain Vision Transformers 
+
+Zhang, Bowen and Tian, Zhi and Tang, Quan and Chu, Xiangxiang and Wei, Xiaolin and Shen, Chunhua and Liu, Yifan.
+
+NeurIPS 2022. [[paper]](https://arxiv.org/abs/2210.05844)
+
+This repository contains the official Pytorch implementation of training & evaluation code and the pretrained models for SegViT.
+
+As shown in the following figure, the similarity between the class query and the image features is transfered to the segmentation mask.
+
 
 <img src="./resources/teaser-01.png">
 <img src="resources/atm_arch-1.png">
 
+
 ## Highlights
-* **Light Decoder:** The efficient Attention-to-Mask (ATM) decoder utilised the attention mechanism to provide direct supervision to mask predictions.
+* **Simple Decoder:** The Attention-to-Mask (ATM) decoder provides a simple segmentation head for Plain Vision Transformer, which is easy to extend to other downstream tasks.
 * **Light Structure:** We proposed *Shrunk* structure that can save up to **40%** computational cost in a structure with ViT backbone.
 * **Stronger performance:** We got state-of-the-art performance mIoU **55.2%** on ADE20K, mIoU **50.3%** on COCOStuff10K, and mIoU **65.3%** on PASCAL-Context datasets with the least amount of computational cost among counterparts using ViT backbone. 
 
