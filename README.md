@@ -1,6 +1,11 @@
-# [SegViT: Semantic Segmentation with Plain Vision Transformers](https://arxiv.org/abs/2210.05844)
-<img src="./resources/teaser-01.png">
-<img src="resources/atm_arch-1.png">
+# SegViT: Semantic Segmentation with Plain Vision Transformers 
+### [[paper]](https://arxiv.org/abs/2210.05844)
+
+## Highlights
+* **Light Decoder:** The efficient Attention-to-Mask (ATM) decoder utilised the attention mechanism to provide direct supervision to mask predictions.
+* **Light Structure:** We proposed *Shrunk* structure that can save up to *40%*  computations to the Vit Backbone.
+* **Stronger performance:** We got mIoU **55.2%** on ADE20K, mIoU **50.3%** on COCOStuff10K, and mIoU **65.3%** on PASCAL-Context datasets with the least amount of computational cost among counterparts. 
+
 
 ## Getting started 
 
