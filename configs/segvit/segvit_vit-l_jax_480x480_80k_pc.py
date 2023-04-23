@@ -5,7 +5,8 @@ _base_ = [
 ]
 in_channels = 1024
 img_size = 480
-checkpoint = './pretrained/vit_large_p16_384_20220308-d4efb41d.pth'
+# checkpoint = './pretrained/vit_large_p16_384_20220308-d4efb41d.pth'
+checkpoint = 'https://download.openmmlab.com/mmsegmentation/v0.5/pretrain/segmenter/vit_large_p16_384_20220308-d4efb41d.pth'
 out_indices = [7, 15, 23]
 model = dict(
     pretrained=checkpoint,
