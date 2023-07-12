@@ -1,12 +1,18 @@
 # Official Pytorch Implementation of SegViT
 
-SegViT: Semantic Segmentation with Plain Vision Transformers 
+### SegViT: Semantic Segmentation with Plain Vision Transformers 
 
 Zhang, Bowen and Tian, Zhi and Tang, Quan and Chu, Xiangxiang and Wei, Xiaolin and Shen, Chunhua and Liu, Yifan.
 
 NeurIPS 2022. [[paper]](https://arxiv.org/abs/2210.05844)
 
-This repository contains the official Pytorch implementation of training & evaluation code and the pretrained models for SegViT.
+### SegViTv2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers
+
+Bowen Zhang, Liyang Liu, Minh Hieu Phan, Zhi Tian, Chunhua Shen and Yifan Liu.
+
+[[paper]](https://arxiv.org/abs/2306.06289) [code release soon...]
+
+This repository contains the official Pytorch implementation of training & evaluation code and the pretrained models for SegViT and the extended version SegViT v2.
 
 As shown in the following figure, the similarity between the class query and the image features is transfered to the segmentation mask.
 
@@ -64,5 +70,12 @@ For academic use, this project is licensed under the 2-clause BSD License - see 
   author={Zhang, Bowen and Tian, Zhi and Tang, Quan and Chu, Xiangxiang and Wei, Xiaolin and Shen, Chunhua and Liu, Yifan},
   journal={NeurIPS},
   year={2022}
+}
+
+@article{zhang2023segvitv2,
+  title={SegViTv2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers},
+  author={Zhang, Bowen and Liu, Liyang and Phan, Minh Hieu and Tian, Zhi and Shen, Chunhua and Liu, Yifan},
+  journal={arXiv preprint arXiv:2306.06289},
+  year={2023}
 }
 ```
