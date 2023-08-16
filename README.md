@@ -75,7 +75,7 @@ For academic use, this project is licensed under the 2-clause BSD License - see 
 @article{zhang2023segvitv2,
   title={SegViTv2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers},
   author={Zhang, Bowen and Liu, Liyang and Phan, Minh Hieu and Tian, Zhi and Shen, Chunhua and Liu, Yifan},
-  journal={arXiv preprint arXiv:2306.06289},
+  journal={IJCV},
   year={2023}
 }
 ```
