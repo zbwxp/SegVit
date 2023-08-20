@@ -10,21 +10,22 @@ NeurIPS 2022. [[paper]](https://arxiv.org/abs/2210.05844)
 
 Bowen Zhang, Liyang Liu, Minh Hieu Phan, Zhi Tian, Chunhua Shen and Yifan Liu.
 
-[[paper]](https://arxiv.org/abs/2306.06289) [code release soon...]
+IJCV 2023. [[paper]](https://arxiv.org/abs/2306.06289) [we are refactoring code for release ...]
 
 This repository contains the official Pytorch implementation of training & evaluation code and the pretrained models for SegViT and the extended version SegViT v2.
-
-As shown in the following figure, the similarity between the class query and the image features is transfered to the segmentation mask.
-
-
-<img src="./resources/teaser-01.png">
-<img src="resources/atm_arch-1.png">
-
 
 ## Highlights
 * **Simple Decoder:** The Attention-to-Mask (ATM) decoder provides a simple segmentation head for Plain Vision Transformer, which is easy to extend to other downstream tasks.
 * **Light Structure:** We proposed *Shrunk* structure that can save up to **40%** computational cost in a structure with ViT backbone.
 * **Stronger performance:** We got state-of-the-art performance mIoU **55.2%** on ADE20K, mIoU **50.3%** on COCOStuff10K, and mIoU **65.3%** on PASCAL-Context datasets with the least amount of computational cost among counterparts using ViT backbone. 
+* **Scaleability** SegViT v2 employed more powerful backbones (BEiT-V2) obtained state-of-the-art performance mIoU **58.2%** (MS) on ADE20K, mIoU **53.5%** (MS) on COCOStuff10K, and mIoU **67.14%** (MS) on PASCAL-Context datasets, showcasing strong scalability. 
+* **Continuals Learning** We propose to adapt SegViT v2 for continual semantic segmentation, demonstrating nearly zero forgetting of previously learned knowledge.
+
+As shown in the following figure, the similarity between the class query and the image features is transfered to the segmentation mask.
+
+<img src="./resources/v2_figure_1.png">
+<img src="./resources/teaser-01.png">
+<img src="resources/atm_arch-1.png">
 
 
 ## Getting started 
