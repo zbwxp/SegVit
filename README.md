@@ -51,13 +51,13 @@ Please follow the instructions of [mmsegmentation](https://github.com/open-mmlab
 ## Results
 | Model backbone        |datasets| mIoU  | mIoU (ms) | GFlops | ckpt
 | ------------------ |--------------|---------------- | -------------- |--- |---
-Vit-Base | ADE20k | 51.3 | 53.0 | 120.9 |[model](https://cloudstor.aarnet.edu.au/plus/s/k0xOaxYmENt6f0z) 
-Vit-Large (Shrunk) | ADE20k | 53.9 | 55.1 | 373.5 | [model](https://cloudstor.aarnet.edu.au/plus/s/eFB9y7CXNfPzjJv)
-Vit-Large | ADE20k | 54.6 | 55.2 | 637.9 | [model](https://cloudstor.aarnet.edu.au/plus/s/sMDAzsMjq39bQBD) 
-Vit-Large (Shrunk) | COCOStuff10K | 49.1 | 49.4 | 224.8 | [model](https://cloudstor.aarnet.edu.au/plus/s/mIDAyR3jeARcCMq)
-Vit-Large | COCOStuff10K | 49.9 | 50.3| 383.9 | [model](https://cloudstor.aarnet.edu.au/plus/s/3XKspneTKPcI3sx)
-Vit-Large (Shrunk) | PASCAL-Context (59cls)| 62.3 | 63.7  | 186.9 | [model](https://cloudstor.aarnet.edu.au/plus/s/mMguIaE44lgc2SR)
-Vit-Large  | PASCAL-Context (59cls)| 64.1 | 65.3  | 321.6 | [model](https://cloudstor.aarnet.edu.au/plus/s/RGsAybjc5xLwpKK)
+Vit-Base | ADE20k | 51.3 | 53.0 | 120.9 |[model](https://huggingface.co/Akide/SegViTv1/blob/main/ade_51.3.pth) 
+Vit-Large (Shrunk) | ADE20k | 53.9 | 55.1 | 373.5 | [model](https://huggingface.co/Akide/SegViTv1/blob/main/ade_shrunk_53.9.pth)
+Vit-Large | ADE20k | 54.6 | 55.2 | 637.9 | [model](https://huggingface.co/Akide/SegViTv1/blob/main/ade_54.6.pth) 
+Vit-Large (Shrunk) | COCOStuff10K | 49.1 | 49.4 | 224.8 | [model](https://huggingface.co/Akide/SegViTv1/blob/main/COCOstuff10k_shrunk_49.1.pth)
+Vit-Large | COCOStuff10K | 49.9 | 50.3| 383.9 | [model](https://huggingface.co/Akide/SegViTv1/blob/main/COCOstuff_49.9.pth)
+Vit-Large (Shrunk) | PASCAL-Context (59cls)| 62.3 | 63.7  | 186.9 | [model](https://huggingface.co/Akide/SegViTv1/blob/main/PC59cls_62.3.pth)
+Vit-Large  | PASCAL-Context (59cls)| 64.1 | 65.3  | 321.6 | [model](https://huggingface.co/Akide/SegViTv1/blob/main/PC59cls_64.1.pth)
 
 
 
