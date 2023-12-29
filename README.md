@@ -1,4 +1,4 @@
-# Official Pytorch Implementation of SegViT
+# Official Pytorch Implementation of SegViT [[ckpt]](https://huggingface.co/Akide/SegViTv1)
 
 ### SegViT: Semantic Segmentation with Plain Vision Transformers 
 
